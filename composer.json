@@ -1,11 +1,13 @@
 {
     "name": "pump/pump-kint",
     "description": "Custom Kint Configuration for Pump Projects",
-    "keywords": [],
+    "keywords": [
+        "kint",
+        "debugging"
+    ],
     "homepage": "https://github.com/PumpInteractive/pump-kint",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
-    "support": {},
     "minimum-stability": "stable",
     "require": {
         "kint-php/kint": "^3.2"
