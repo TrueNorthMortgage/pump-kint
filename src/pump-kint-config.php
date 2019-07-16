@@ -6,10 +6,6 @@ Kint\Renderer\RichRenderer::$folder = false;
 
 function dd(...$vars)
 {
-    if (Kint::$enabled_mode === false) {
-        return;
-    }
-
     Kint::dump(...$vars);
     exit;
 }
