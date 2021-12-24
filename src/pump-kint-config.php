@@ -2,7 +2,7 @@
 
 Kint::$aliases[] = 'dd';
 Kint::$aliases[] = 'sd';
-Kint::$enabled_mode = (bool)getenv('DEV_MODE');
+Kint::$enabled_mode = (getenv('DEV_MODE') === 'true');
 Kint\Renderer\RichRenderer::$folder = false;
 
 function kd(...$vars)
