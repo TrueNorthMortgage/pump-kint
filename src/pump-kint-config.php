@@ -1,9 +1,11 @@
 <?php
 
+use Kint\Kint;
+use Kint\Renderer\RichRenderer;
+
 Kint::$aliases[] = 'dd';
 Kint::$aliases[] = 'sd';
-Kint::$enabled_mode = (getenv('DEV_MODE') === 'true');
-Kint\Renderer\RichRenderer::$folder = false;
+RichRenderer::$folder = false;
 
 function kd(...$vars)
 {
