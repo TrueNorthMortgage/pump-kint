@@ -10,7 +10,7 @@
     "license": "MIT",
     "minimum-stability": "stable",
     "require": {
-        "kint-php/kint": "^3.2"
+        "kint-php/kint": "^4.1"
     },
     "autoload": {
         "files": [
