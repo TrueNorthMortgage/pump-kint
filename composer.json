@@ -1,11 +1,11 @@
 {
-    "name": "tnm/pump-kint",
+    "name": "truenorthmortgage/pump-kint",
     "description": "Custom Kint Configuration for Pump Projects",
     "keywords": [
         "kint",
         "debugging"
     ],
-    "homepage": "https://github.com/TrueNorthMortgage/pump-kint",
+    "homepage": "https://github.com/truenorthmortgage/pump-kint",
     "type": "library",
     "license": "MIT",
     "minimum-stability": "stable",
